@@ -14,6 +14,8 @@ public class Main {
 		
 		Show obj1 = new Show (123, "Ayush");
 		
+		System.out.println(obj1.name  + " " + obj1.number);
+		
 		// #Note -------------------------
 		// Show - class name 
 		// obj1 - reference variable of class data type
@@ -32,7 +34,7 @@ class Show {				//class
 		
 		this.name = name;   // this keyword invoke current class instance variable
 			
-		this.number = number;   // use of dot operator is to link referance variable to instance variable
+		this.number = number;   // use of dot operator is to link refarance variable to instance variable
 	}
 	
 }
