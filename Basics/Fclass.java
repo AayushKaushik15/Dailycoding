@@ -27,6 +27,8 @@ public class Fclass {
 		this.number = number;
 	}
 	
+	
+	@Override
 	public String toString () {					// using this method you no need to use o1.name 
 												// now you can execute method only with the name of reference variable
 		return name  + " " + number;
