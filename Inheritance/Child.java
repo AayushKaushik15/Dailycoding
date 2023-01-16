@@ -20,7 +20,7 @@ public class Child extends Parent{
 	}
 
 
-	//super class invoke parent class constructors and methods
+	//super class invoke parent class constructors
 
 	
 	
