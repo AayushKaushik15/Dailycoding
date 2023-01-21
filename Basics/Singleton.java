@@ -8,7 +8,7 @@ public class Singleton {
 		
 	}
 	
-	private static Singleton instance;	
+	private static Singleton instance;
 	
 	public static Singleton getInstance () {
 		
@@ -21,3 +21,6 @@ public class Singleton {
 		return instance;
 	}
 }
+
+
+//it give access to only one object 
