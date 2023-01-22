@@ -23,4 +23,4 @@ public class Singleton {
 }
 
 
-//it give access to only one object 
+//it give access to only one object
