@@ -1,10 +1,11 @@
-package Inheritance;
+package Dailycoding.Inheritance;
 
 public class Child extends Parent{
 	
 	public static void main(String[] args) {
-		
-		
+
+//		Child o1 = new Child();
+
 	}
 	
 	String naam; 
@@ -14,14 +15,24 @@ public class Child extends Parent{
 	}
 
 	public Child(int number, String name, String naam) {
-		super(number, name);
+		super(number, name);  //invoke parent class constructor
 		this.naam = naam;
-		// TODO Auto-generated constructor stub
+		super.display();      //invoke parent class simple method
 	}
 
+	public void show () {
+		System.out.println();
+	}
 
-	//super class invoke parent class constructors
+	//super class invoke parent class constructors, method in the child class using super.then name of method and
+	// super(name,number) for constructor
 
+
+
+	/*Note that  :-
+	* you dont need to call static method in child class because static is dependent on Class not objects
+	*
+	* you can just say Child.screm*/
 	
 	
 	
