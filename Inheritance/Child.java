@@ -11,13 +11,20 @@ public class Child extends Parent{
 	String naam; 
 	
 	public Child () {
+//		super();
 		this.naam = "Ayush";
+
 	}
 
 	public Child(int number, String name, String naam) {
 		super(number, name);  //invoke parent class constructor
 		this.naam = naam;
 		super.display();      //invoke parent class simple method
+	}
+
+	public Child (Child clone){
+		super(clone);
+		this.name = name;
 	}
 
 	public void show () {

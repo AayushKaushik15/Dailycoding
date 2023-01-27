@@ -3,14 +3,14 @@ package Dailycoding.Inheritance;
 public class Show {
     public static void main(String[] args) {
 
-        Child obj1 = new Child();
-        obj1.display();         //simple method
-        Child.scream();         // static method
-        System.out.println(obj1.name + " " + obj1.number + " " + obj1.naam);
-
-        Parent obj2 = new Child(25, "ayush", "shashank");
-
-        System.out.println(obj2.name + " " + obj2.number);  //it can't access obj2.naam beacuse naam variable is in child class
+//        Child obj1 = new Child();
+//        obj1.display();         //simple method
+//        Child.scream();         // static method
+//        System.out.println(obj1.name + " " + obj1.number + " " + obj1.naam);
+//
+//        Parent obj2 = new Child(25, "ayush", "shashank");
+//
+//        System.out.println(obj2.name + " " + obj2.number);  //it can't access obj2.naam beacuse naam variable is in child class
         // but here you can acces those instance variables which are available in Parent class
         //Because the reference variable of object is type Parent class;
 
@@ -22,6 +22,10 @@ public class Show {
         //but here, when the object itself if of type parent class, how will you call the child class variables
         //this is why error
 //        Child ob4 = new Parent (23, "Ayush");
+
+
+        Childtwo obj = new Childtwo();
+        System.out.println(obj.number);
     }
 }
 
