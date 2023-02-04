@@ -1,4 +1,4 @@
-package Static;
+package DailyCoding.Static;
 
 public class Innerclass {
 

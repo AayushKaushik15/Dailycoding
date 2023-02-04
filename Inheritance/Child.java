@@ -1,4 +1,4 @@
-package Dailycoding.Inheritance;
+package DailyCoding.Inheritance;
 
 public class Child extends Parent{
 	

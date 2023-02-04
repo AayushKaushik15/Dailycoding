@@ -1,8 +1,7 @@
-package Dailycoding.Inheritance;
+package DailyCoding.Inheritance;
 
 public class Show {
     public static void main(String[] args) {
-
 //        Child obj1 = new Child();
 //        obj1.display();         //simple method
 //        Child.scream();         // static method
