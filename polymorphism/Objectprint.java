@@ -4,7 +4,7 @@ public class Objectprint {
     public static void main(String [] args) {
 
         showCase obj1 = new showCase(1);
-        System.out.println(obj1);
+        System.out.println(obj1);   //you have to use toString method to achieve "obj1.number"
     }
 }
 
