@@ -1,4 +1,4 @@
-package Basics;
+package DailyCoding.Basics;
 
 public class Main {
 	
